@@ -37,7 +37,7 @@
                         </div>
                          <div class="form-group">
                             <label>Contact Number</label>
-                            <input type="password" class="form-control" placeholder="Enter your Mobile Number" id="password" name="phone" v-model='form.phone' pattern="[0-9]{10}" required>
+                            <input type="text" class="form-control" placeholder="Enter your Mobile Number" id="password" name="phone" v-model='form.phone' pattern="[0-9]{10,11}" required>
                         </div>
 
                         <br>
